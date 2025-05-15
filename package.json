@@ -8,7 +8,7 @@
   "main": "dist/index.js",
   "scripts": {
     "build": "babel src -d dist --copy-files",
-    "start": "cross-env NODE_ENV=production dotenv -e .env node dist/index.js",
+    "start": "node src/index.js",
     "dev": "cross-env NODE_ENV=development dotenv -e .env babel-watch -w package.json -w src src/index.js",
     "test": "cross-env NODE_ENV=test dotenv -e .env jest --verbose",
     "test:watch": "cross-env NODE_ENV=test dotenv -e .env jest --watch",
