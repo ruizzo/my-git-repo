@@ -12,7 +12,7 @@ const getRoot = (_req, res) => {
               <title>My First Domain</title>
               <style>
                   body {
-                      background-color: #282c34;
+                      background-color:rgb(205, 209, 217);
                       color: #61dafb;
                       font-family: Arial, sans-serif;
                       text-align: center;
@@ -24,8 +24,8 @@ const getRoot = (_req, res) => {
               </style>
           </head>
           <body>
-              <h1>🚀 I just obtained my first domain!</h1>
-              <p>And deployed my Express app with style 🎉</p>
+              <h1> I just obtained my very first domain!😎🎉</h1>
+              <p>And deployed my Express app 🤖🚀</p>
           </body>
       </html>
   `);
