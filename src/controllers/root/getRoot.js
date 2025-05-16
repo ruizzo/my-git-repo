@@ -6,11 +6,7 @@ import config from '../../config.js';
  * @param {import('express').Response} res 
  */
 const getRoot = (_req, res) => {
-    res.status(200).json({
-        name: config.name,
-        description: config.description,
-        version: config.version
-    });
-}
+    res.status(200).send('Hello from express, Ruiz 🤠✌️');
+  }
 
 export default getRoot
