@@ -7,4 +7,11 @@ const root = express.Router()
 root.get('/', getRoot)
 root.post('/', postRoot)
 
-export default root
+//new route
+root.get('/', (req, res) => {
+    res.send('Hello from express');
+  });
+  
+export default root;
+
+
