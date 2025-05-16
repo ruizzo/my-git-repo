@@ -12,8 +12,8 @@ const getRoot = (_req, res) => {
               <title>My First Domain</title>
               <style>
                   body {
-                      background-color:rgb(205, 209, 217);
-                      color: #61dafb;
+                      background-color:rgb(25, 28, 53);
+                      color:rgb(247, 247, 247);
                       font-family: Arial, sans-serif;
                       text-align: center;
                       padding-top: 100px;
